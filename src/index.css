@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 16px; 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background-color: black;
+    font-family: sans-serif; 
+    overflow-x: hidden; 
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: lightblue;
+    border: 2px solid lightblue;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    border-color: pink;
+    color: pink;
+}

@@ -1,0 +1,55 @@
+.form-input-container {
+    border: 2px solid white;
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.form-input:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.form-post-validation-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.form-error-container {
+    flex-grow: 1;
+}
+
+.form-error-text {
+    color: red;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    color: white;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: transparent;
+    border: 2px solid white;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 6px;
+}
+
+input:hover,
+textarea:hover {
+    border-color: lightgreen;
+}
+
+input:focus,
+textarea:focus {
+    border-color: lightgreen;
+    box-shadow: 0 0 0 2px rgba(144, 238, 144, 0.3);
+}
+
+textarea {
+    min-height: 10rem;
+    resize: vertical;
+    overflow-y: auto;
+}

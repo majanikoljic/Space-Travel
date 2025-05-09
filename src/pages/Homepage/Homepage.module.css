@@ -1,0 +1,47 @@
+.homepage-div {
+    background-color: #1c1c1c;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    color: #f0f0f0;
+}
+
+.homepage-div h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    border-bottom: 2px solid white;
+    padding-bottom: 0.5rem;
+}
+
+.homepage-div h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    color: #e0e0e0;
+}
+
+.homepage-div p {
+    padding: 1rem;
+    text-align: justify;
+    border: 2px dotted white;
+    border-radius: 8px;
+    background-color: #2a2a2a;
+    line-height: 1.6;
+}
+
+.homepage-div:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+/* Responsive tweak */
+@media (max-width: 600px) {
+    .homepage-div h1 {
+        font-size: 1.5rem;
+    }
+
+    .homepage-div h2 {
+        font-size: 1.1rem;
+    }
+}
